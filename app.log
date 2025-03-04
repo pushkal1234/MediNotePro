@@ -1,0 +1,789 @@
+2025-03-01 03:43:05,955 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 03:43:15,306 - __main__ - ERROR - Error starting application: No module named 'ner'
+2025-03-01 03:46:36,322 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 03:46:42,296 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 03:46:42,296 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 03:46:42,296 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 03:46:42,296 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 03:46:42,296 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 03:46:42,296 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 03:46:44,441 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 03:46:44,441 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 03:46:44,441 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 03:46:44,441 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 03:46:44,441 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 03:46:44,441 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 03:53:50,178 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 03:53:50,178 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 03:53:50,178 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 03:53:50,178 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 03:53:50,178 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 03:53:50,178 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 03:53:59,282 - __main__ - INFO - Starting Medical Transcription Analysis Application
+2025-03-01 03:54:01,463 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 03:54:01,463 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 03:54:01,464 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 03:54:01,464 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 03:54:01,464 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 03:54:01,464 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 03:54:03,787 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 03:54:03,787 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 03:54:03,787 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 03:54:03,787 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 03:54:03,788 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 03:54:03,788 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 03:54:24,101 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 03:54:24,101 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 03:54:24,101 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 03:54:24,101 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 03:54:24,101 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 03:54:24,101 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 03:54:54,028 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 03:54:54,029 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 03:54:54,029 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 03:54:54,029 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 03:54:54,029 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 03:54:54,029 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 03:56:56,271 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 03:56:58,830 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 03:56:58,830 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 03:56:58,830 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 03:56:58,830 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 03:56:58,830 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 03:56:58,830 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 03:57:01,171 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 03:57:01,171 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 03:57:01,171 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 03:57:01,171 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 03:57:01,171 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 03:57:01,171 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 04:49:41,777 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 04:49:45,781 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 04:49:45,781 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 04:49:45,781 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 04:49:45,782 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 04:49:45,782 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 04:49:45,782 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 04:49:48,202 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 04:49:48,202 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 04:49:48,202 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 04:49:48,202 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 04:49:48,202 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 04:49:48,202 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 04:51:10,359 - medical_transcription.transcription.whisper_transcriber - INFO - Loading audio file: /var/folders/rr/45zb8btd2zq8q088mn92spvm0000gr/T/tmpcozqvchs.wav
+2025-03-01 04:51:15,165 - medical_transcription.transcription.whisper_transcriber - INFO - Loaded 0.16 minutes of audio
+2025-03-01 04:51:15,165 - medical_transcription.transcription.whisper_transcriber - INFO - Loading Whisper model: base
+2025-03-01 04:51:27,020 - medical_transcription.transcription.whisper_transcriber - INFO - Whisper model loaded successfully
+2025-03-01 04:51:27,020 - medical_transcription.transcription.whisper_transcriber - INFO - Starting transcription with Whisper...
+2025-03-01 04:51:28,002 - medical_transcription.transcription.whisper_transcriber - INFO - Transcription complete
+2025-03-01 04:54:30,370 - medical_transcription.ner.medical_ner - INFO - Loading NER model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 04:55:38,251 - medical_transcription.ner.medical_ner - INFO - NER model loaded successfully
+2025-03-01 04:55:38,251 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-01 04:55:38,656 - medical_transcription.ner.medical_ner - INFO - Extracted 0 entities
+2025-03-01 04:56:49,285 - medical_transcription.summarization.text_summarizer - INFO - Loading summarization model and tokenizer: facebook/bart-large-cnn
+2025-03-01 04:58:10,898 - medical_transcription.summarization.text_summarizer - INFO - Summarization model and tokenizer loaded successfully
+2025-03-01 04:58:10,899 - medical_transcription.summarization.text_summarizer - INFO - Summarizing text
+2025-03-01 04:58:14,502 - medical_transcription.summarization.text_summarizer - INFO - Summarization complete
+2025-03-01 04:59:37,161 - medical_transcription.transcription.whisper_transcriber - INFO - Loading audio file: /var/folders/rr/45zb8btd2zq8q088mn92spvm0000gr/T/tmpmq_kjcxo.wav
+2025-03-01 04:59:37,169 - medical_transcription.transcription.whisper_transcriber - INFO - Loaded 0.16 minutes of audio
+2025-03-01 04:59:37,169 - medical_transcription.transcription.whisper_transcriber - INFO - Starting transcription with Whisper...
+2025-03-01 04:59:38,094 - medical_transcription.transcription.whisper_transcriber - INFO - Transcription complete
+2025-03-01 04:59:38,094 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-01 04:59:38,591 - medical_transcription.ner.medical_ner - INFO - Extracted 0 entities
+2025-03-01 04:59:38,591 - medical_transcription.summarization.text_summarizer - INFO - Summarizing text
+2025-03-01 04:59:42,182 - medical_transcription.summarization.text_summarizer - INFO - Summarization complete
+2025-03-01 04:59:42,183 - medical_transcription.report_generation.report_generator - ERROR - Gemini model not initialized. Check API key.
+2025-03-01 04:59:42,186 - medical_transcription.report_generation.report_generator - INFO - Report saved as temp/report_2fecfe9f-e7a9-4a76-8b12-108fe16f91a7.pdf
+2025-03-01 04:59:42,189 - medical_transcription.knowledge_base.vector_store - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 04:59:42,611 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:00:32,157 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-03-01 05:00:32,157 - medical_transcription.knowledge_base.vector_store - INFO - Embedding model loaded successfully
+2025-03-01 05:00:32,157 - medical_transcription.knowledge_base.vector_store - INFO - Creating FAISS index with chunk size 200 and overlap 50
+2025-03-01 05:00:32,157 - medical_transcription.knowledge_base.vector_store - INFO - Split text into 1 chunks
+2025-03-01 05:00:32,173 - faiss.loader - INFO - Loading faiss.
+2025-03-01 05:00:32,440 - faiss.loader - INFO - Successfully loaded faiss.
+2025-03-01 05:00:32,443 - langchain.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-03-01 05:00:32,444 - medical_transcription.knowledge_base.vector_store - INFO - FAISS index saved to faiss_index
+2025-03-01 05:00:32,444 - medical_transcription.knowledge_base.vector_store - INFO - FAISS index created and saved successfully
+2025-03-01 05:07:22,502 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 05:07:25,596 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:07:25,596 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:07:25,596 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:07:25,596 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:07:25,596 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:07:25,596 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 05:07:27,784 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:07:27,784 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:07:27,785 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:07:27,785 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:07:27,785 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:07:27,785 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 05:07:32,050 - medical_transcription.transcription.whisper_transcriber - INFO - Loading audio file: /var/folders/rr/45zb8btd2zq8q088mn92spvm0000gr/T/tmp21av1zhc.wav
+2025-03-01 05:07:32,600 - medical_transcription.transcription.whisper_transcriber - INFO - Loaded 0.16 minutes of audio
+2025-03-01 05:07:32,601 - medical_transcription.transcription.whisper_transcriber - INFO - Loading Whisper model: base
+2025-03-01 05:07:33,170 - medical_transcription.transcription.whisper_transcriber - INFO - Whisper model loaded successfully
+2025-03-01 05:07:33,170 - medical_transcription.transcription.whisper_transcriber - INFO - Starting transcription with Whisper...
+2025-03-01 05:07:34,303 - medical_transcription.transcription.whisper_transcriber - INFO - Transcription complete
+2025-03-01 05:07:34,303 - medical_transcription.ner.medical_ner - INFO - Loading NER model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:07:38,076 - medical_transcription.ner.medical_ner - INFO - NER model loaded successfully
+2025-03-01 05:07:38,076 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-01 05:07:38,348 - medical_transcription.ner.medical_ner - INFO - Extracted 0 entities
+2025-03-01 05:07:38,348 - medical_transcription.summarization.text_summarizer - INFO - Loading summarization model and tokenizer: facebook/bart-large-cnn
+2025-03-01 05:07:45,989 - medical_transcription.summarization.text_summarizer - INFO - Summarization model and tokenizer loaded successfully
+2025-03-01 05:07:45,989 - medical_transcription.summarization.text_summarizer - INFO - Summarizing text
+2025-03-01 05:07:49,944 - medical_transcription.summarization.text_summarizer - INFO - Summarization complete
+2025-03-01 05:07:49,945 - medical_transcription.report_generation.report_generator - ERROR - Gemini model not initialized. Check API key.
+2025-03-01 05:07:49,949 - medical_transcription.report_generation.report_generator - INFO - Report saved as temp/report_9ac33d50-9745-498d-a193-8cd1f6f86207.pdf
+2025-03-01 05:07:49,957 - medical_transcription.knowledge_base.vector_store - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:07:50,261 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:07:50,565 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-03-01 05:07:50,565 - medical_transcription.knowledge_base.vector_store - INFO - Embedding model loaded successfully
+2025-03-01 05:07:50,565 - medical_transcription.knowledge_base.vector_store - INFO - Creating FAISS index with chunk size 200 and overlap 50
+2025-03-01 05:07:50,565 - medical_transcription.knowledge_base.vector_store - INFO - Split text into 1 chunks
+2025-03-01 05:07:50,578 - faiss.loader - INFO - Loading faiss.
+2025-03-01 05:07:50,736 - faiss.loader - INFO - Successfully loaded faiss.
+2025-03-01 05:07:50,740 - langchain.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-03-01 05:07:50,741 - medical_transcription.knowledge_base.vector_store - INFO - FAISS index saved to faiss_index
+2025-03-01 05:07:50,741 - medical_transcription.knowledge_base.vector_store - INFO - FAISS index created and saved successfully
+2025-03-01 05:09:43,619 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:09:43,620 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:09:43,620 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:09:43,620 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:09:43,620 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:09:43,620 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 05:10:03,925 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:10:03,925 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:10:03,925 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:10:03,925 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:10:03,925 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:10:03,925 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 05:10:07,277 - medical_transcription.transcription.whisper_transcriber - INFO - Loading audio file: /var/folders/rr/45zb8btd2zq8q088mn92spvm0000gr/T/tmpd4puhzdk.wav
+2025-03-01 05:10:07,850 - medical_transcription.transcription.whisper_transcriber - INFO - Loaded 0.16 minutes of audio
+2025-03-01 05:10:07,850 - medical_transcription.transcription.whisper_transcriber - INFO - Loading Whisper model: base
+2025-03-01 05:10:08,411 - medical_transcription.transcription.whisper_transcriber - INFO - Whisper model loaded successfully
+2025-03-01 05:10:08,411 - medical_transcription.transcription.whisper_transcriber - INFO - Starting transcription with Whisper...
+2025-03-01 05:10:09,525 - medical_transcription.transcription.whisper_transcriber - INFO - Transcription complete
+2025-03-01 05:10:09,525 - medical_transcription.ner.medical_ner - INFO - Loading NER model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:10:12,254 - medical_transcription.ner.medical_ner - INFO - NER model loaded successfully
+2025-03-01 05:10:12,254 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-01 05:10:12,503 - medical_transcription.ner.medical_ner - INFO - Extracted 0 entities
+2025-03-01 05:10:12,503 - medical_transcription.summarization.text_summarizer - INFO - Loading summarization model and tokenizer: facebook/bart-large-cnn
+2025-03-01 05:10:19,924 - medical_transcription.summarization.text_summarizer - INFO - Summarization model and tokenizer loaded successfully
+2025-03-01 05:10:19,924 - medical_transcription.summarization.text_summarizer - INFO - Summarizing text
+2025-03-01 05:10:23,493 - medical_transcription.summarization.text_summarizer - INFO - Summarization complete
+2025-03-01 05:10:23,493 - medical_transcription.report_generation.report_generator - ERROR - Gemini model not initialized. Check API key.
+2025-03-01 05:10:23,495 - medical_transcription.report_generation.report_generator - INFO - Report saved as temp/report_5d64c1f9-f680-4d2a-a103-2f899ebe2833.pdf
+2025-03-01 05:10:23,497 - medical_transcription.knowledge_base.vector_store - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:10:23,730 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:10:24,045 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-03-01 05:10:24,045 - medical_transcription.knowledge_base.vector_store - INFO - Embedding model loaded successfully
+2025-03-01 05:10:24,045 - medical_transcription.knowledge_base.vector_store - INFO - Creating FAISS index with chunk size 200 and overlap 50
+2025-03-01 05:10:24,045 - medical_transcription.knowledge_base.vector_store - INFO - Split text into 1 chunks
+2025-03-01 05:10:24,057 - faiss.loader - INFO - Loading faiss.
+2025-03-01 05:10:24,198 - faiss.loader - INFO - Successfully loaded faiss.
+2025-03-01 05:10:24,201 - langchain.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-03-01 05:10:24,202 - medical_transcription.knowledge_base.vector_store - INFO - FAISS index saved to faiss_index
+2025-03-01 05:10:24,203 - medical_transcription.knowledge_base.vector_store - INFO - FAISS index created and saved successfully
+2025-03-01 05:10:41,614 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 05:10:44,072 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:10:44,073 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:10:44,073 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:10:44,073 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:10:44,073 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:10:44,073 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 05:10:46,259 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:10:46,259 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:10:46,259 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:10:46,259 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:10:46,259 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:10:46,259 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 05:11:10,726 - medical_transcription.transcription.whisper_transcriber - INFO - Loading audio file: /var/folders/rr/45zb8btd2zq8q088mn92spvm0000gr/T/tmp4_f136id.wav
+2025-03-01 05:11:11,256 - medical_transcription.transcription.whisper_transcriber - INFO - Loaded 0.16 minutes of audio
+2025-03-01 05:11:11,256 - medical_transcription.transcription.whisper_transcriber - INFO - Loading Whisper model: base
+2025-03-01 05:11:11,805 - medical_transcription.transcription.whisper_transcriber - INFO - Whisper model loaded successfully
+2025-03-01 05:11:11,805 - medical_transcription.transcription.whisper_transcriber - INFO - Starting transcription with Whisper...
+2025-03-01 05:11:13,007 - medical_transcription.transcription.whisper_transcriber - INFO - Transcription complete
+2025-03-01 05:11:13,008 - medical_transcription.ner.medical_ner - INFO - Loading NER model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:11:16,204 - medical_transcription.ner.medical_ner - INFO - NER model loaded successfully
+2025-03-01 05:11:16,204 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-01 05:11:16,436 - medical_transcription.ner.medical_ner - INFO - Extracted 0 entities
+2025-03-01 05:11:16,436 - medical_transcription.summarization.text_summarizer - INFO - Loading summarization model and tokenizer: facebook/bart-large-cnn
+2025-03-01 05:11:24,836 - medical_transcription.summarization.text_summarizer - INFO - Summarization model and tokenizer loaded successfully
+2025-03-01 05:11:24,836 - medical_transcription.summarization.text_summarizer - INFO - Summarizing text
+2025-03-01 05:11:28,280 - medical_transcription.summarization.text_summarizer - INFO - Summarization complete
+2025-03-01 05:11:28,280 - medical_transcription.report_generation.report_generator - ERROR - Gemini model not initialized. Check API key.
+2025-03-01 05:11:28,283 - medical_transcription.report_generation.report_generator - INFO - Report saved as temp/report_f1659fe0-8fc6-4b61-b593-e43f3534b20a.pdf
+2025-03-01 05:11:28,285 - medical_transcription.knowledge_base.vector_store - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:11:28,502 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:11:28,821 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-03-01 05:11:28,821 - medical_transcription.knowledge_base.vector_store - INFO - Embedding model loaded successfully
+2025-03-01 05:11:28,822 - medical_transcription.knowledge_base.vector_store - INFO - Creating FAISS index with chunk size 200 and overlap 50
+2025-03-01 05:11:28,822 - medical_transcription.knowledge_base.vector_store - INFO - Split text into 1 chunks
+2025-03-01 05:11:28,833 - faiss.loader - INFO - Loading faiss.
+2025-03-01 05:11:28,975 - faiss.loader - INFO - Successfully loaded faiss.
+2025-03-01 05:11:28,978 - langchain.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-03-01 05:11:28,979 - medical_transcription.knowledge_base.vector_store - INFO - FAISS index saved to faiss_index
+2025-03-01 05:11:28,979 - medical_transcription.knowledge_base.vector_store - INFO - FAISS index created and saved successfully
+2025-03-01 05:13:59,926 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:13:59,926 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:13:59,926 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:13:59,926 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:13:59,926 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:13:59,926 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 05:16:16,197 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 05:16:18,180 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:16:18,180 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:16:18,180 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:16:18,180 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:16:18,180 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:16:18,180 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 05:16:20,457 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:16:20,457 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:16:20,457 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:16:20,457 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:16:20,457 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:16:20,457 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 05:16:25,557 - medical_transcription.transcription.whisper_transcriber - INFO - Loading audio file: /var/folders/rr/45zb8btd2zq8q088mn92spvm0000gr/T/tmpl3dzx84n.wav
+2025-03-01 05:16:26,126 - medical_transcription.transcription.whisper_transcriber - INFO - Loaded 0.16 minutes of audio
+2025-03-01 05:16:26,126 - medical_transcription.transcription.whisper_transcriber - INFO - Loading Whisper model: base
+2025-03-01 05:16:26,669 - medical_transcription.transcription.whisper_transcriber - INFO - Whisper model loaded successfully
+2025-03-01 05:16:26,669 - medical_transcription.transcription.whisper_transcriber - INFO - Starting transcription with Whisper...
+2025-03-01 05:16:27,754 - medical_transcription.transcription.whisper_transcriber - INFO - Transcription complete
+2025-03-01 05:16:27,754 - medical_transcription.ner.medical_ner - INFO - Loading NER model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:16:31,008 - medical_transcription.ner.medical_ner - INFO - NER model loaded successfully
+2025-03-01 05:16:31,009 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-01 05:16:31,300 - medical_transcription.ner.medical_ner - INFO - Extracted 0 entities
+2025-03-01 05:16:31,300 - medical_transcription.summarization.text_summarizer - INFO - Loading summarization model and tokenizer: facebook/bart-large-cnn
+2025-03-01 05:16:38,927 - medical_transcription.summarization.text_summarizer - INFO - Summarization model and tokenizer loaded successfully
+2025-03-01 05:16:38,928 - medical_transcription.summarization.text_summarizer - INFO - Summarizing text
+2025-03-01 05:16:42,381 - medical_transcription.summarization.text_summarizer - INFO - Summarization complete
+2025-03-01 05:16:42,381 - medical_transcription.report_generation.report_generator - ERROR - Gemini model not initialized. Check API key.
+2025-03-01 05:16:42,383 - medical_transcription.report_generation.report_generator - INFO - Report saved as temp/report_df3e4923-9d22-4e6f-b8fa-ebd07bfd671b.pdf
+2025-03-01 05:16:42,389 - medical_transcription.knowledge_base.vector_store - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:16:42,646 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:16:42,944 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-03-01 05:16:42,944 - medical_transcription.knowledge_base.vector_store - INFO - Embedding model loaded successfully
+2025-03-01 05:16:42,944 - medical_transcription.knowledge_base.vector_store - INFO - Creating FAISS index with chunk size 200 and overlap 50
+2025-03-01 05:16:42,944 - medical_transcription.knowledge_base.vector_store - INFO - Split text into 1 chunks
+2025-03-01 05:16:42,955 - faiss.loader - INFO - Loading faiss.
+2025-03-01 05:16:43,087 - faiss.loader - INFO - Successfully loaded faiss.
+2025-03-01 05:16:43,090 - langchain.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-03-01 05:16:43,090 - medical_transcription.knowledge_base.vector_store - INFO - FAISS index saved to faiss_index
+2025-03-01 05:16:43,091 - medical_transcription.knowledge_base.vector_store - INFO - FAISS index created and saved successfully
+2025-03-01 05:18:04,623 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:18:04,623 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:18:04,623 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:18:04,623 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:18:04,623 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:18:04,623 - medical_transcription.report_generation.report_generator - INFO - API key found: False
+2025-03-01 05:18:04,623 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 05:18:17,671 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:18:17,671 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:18:17,671 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:18:17,671 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:18:17,671 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:18:17,671 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 05:18:23,261 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:18:23,262 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:18:23,262 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:18:23,262 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:18:23,262 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:18:23,262 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 05:18:34,047 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:18:34,048 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:18:34,048 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:18:34,048 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:18:34,048 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:18:34,048 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 05:18:37,666 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:18:37,666 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:18:37,666 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:18:37,666 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:18:37,666 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:18:37,667 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 05:18:37,675 - medical_transcription.api.app - INFO - API key available at startup: False
+2025-03-01 05:19:43,552 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:19:43,552 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:19:43,552 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:19:43,552 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:19:43,552 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:19:43,552 - medical_transcription.report_generation.report_generator - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-03-01 05:19:43,560 - medical_transcription.api.app - INFO - API key available at startup: False
+2025-03-01 05:20:25,794 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 05:20:27,828 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:20:27,828 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:20:27,828 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:20:27,828 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:20:27,828 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:20:27,829 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 05:20:30,003 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:20:30,004 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:20:30,004 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:20:30,004 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:20:30,004 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:20:30,004 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 05:20:30,013 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-01 05:21:35,680 - medical_transcription.api.app - INFO - API key available in /process endpoint: True
+2025-03-01 05:21:35,680 - medical_transcription.api.app - INFO - Report generator model initialized: True
+2025-03-01 05:21:35,681 - medical_transcription.transcription.whisper_transcriber - INFO - Loading audio file: /var/folders/rr/45zb8btd2zq8q088mn92spvm0000gr/T/tmp824_5nl5.wav
+2025-03-01 05:21:36,232 - medical_transcription.transcription.whisper_transcriber - INFO - Loaded 0.16 minutes of audio
+2025-03-01 05:21:36,232 - medical_transcription.transcription.whisper_transcriber - INFO - Loading Whisper model: base
+2025-03-01 05:21:36,793 - medical_transcription.transcription.whisper_transcriber - INFO - Whisper model loaded successfully
+2025-03-01 05:21:36,793 - medical_transcription.transcription.whisper_transcriber - INFO - Starting transcription with Whisper...
+2025-03-01 05:21:37,973 - medical_transcription.transcription.whisper_transcriber - INFO - Transcription complete
+2025-03-01 05:21:37,973 - medical_transcription.ner.medical_ner - INFO - Loading NER model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:21:41,289 - medical_transcription.ner.medical_ner - INFO - NER model loaded successfully
+2025-03-01 05:21:41,289 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-01 05:21:41,573 - medical_transcription.ner.medical_ner - INFO - Extracted 0 entities
+2025-03-01 05:21:41,573 - medical_transcription.summarization.text_summarizer - INFO - Loading summarization model and tokenizer: facebook/bart-large-cnn
+2025-03-01 05:21:49,000 - medical_transcription.summarization.text_summarizer - INFO - Summarization model and tokenizer loaded successfully
+2025-03-01 05:21:49,000 - medical_transcription.summarization.text_summarizer - INFO - Summarizing text
+2025-03-01 05:21:52,790 - medical_transcription.summarization.text_summarizer - INFO - Summarization complete
+2025-03-01 05:21:52,790 - medical_transcription.api.app - INFO - About to generate report...
+2025-03-01 05:21:52,790 - medical_transcription.report_generation.report_generator - INFO - Generating clinical report with Gemini
+2025-03-01 05:21:58,388 - medical_transcription.report_generation.report_generator - INFO - Report generation complete
+2025-03-01 05:21:58,388 - medical_transcription.api.app - INFO - Report generation result: Success
+2025-03-01 05:21:58,404 - medical_transcription.report_generation.report_generator - INFO - Report saved as temp/report_c0d0060d-1465-4b09-b66b-0b3cbbb153fd.pdf
+2025-03-01 05:21:58,407 - medical_transcription.knowledge_base.vector_store - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:21:58,679 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:21:59,005 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-03-01 05:21:59,005 - medical_transcription.knowledge_base.vector_store - INFO - Embedding model loaded successfully
+2025-03-01 05:21:59,005 - medical_transcription.knowledge_base.vector_store - INFO - Creating FAISS index with chunk size 200 and overlap 50
+2025-03-01 05:21:59,005 - medical_transcription.knowledge_base.vector_store - INFO - Split text into 1 chunks
+2025-03-01 05:21:59,018 - faiss.loader - INFO - Loading faiss.
+2025-03-01 05:21:59,237 - faiss.loader - INFO - Successfully loaded faiss.
+2025-03-01 05:21:59,240 - langchain.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-03-01 05:21:59,241 - medical_transcription.knowledge_base.vector_store - INFO - FAISS index saved to faiss_index
+2025-03-01 05:21:59,241 - medical_transcription.knowledge_base.vector_store - INFO - FAISS index created and saved successfully
+2025-03-01 05:40:46,100 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 05:40:48,897 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:40:48,897 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:40:48,898 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:40:48,898 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:40:48,898 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:40:48,898 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 05:40:51,107 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 05:40:51,107 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:40:51,107 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 05:40:51,107 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:40:51,107 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 05:40:51,108 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 05:40:51,117 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-01 05:41:02,289 - medical_transcription.api.app - INFO - API key available in /process endpoint: True
+2025-03-01 05:41:02,289 - medical_transcription.api.app - INFO - Report generator model initialized: True
+2025-03-01 05:41:02,291 - medical_transcription.transcription.whisper_transcriber - INFO - Loading audio file: /var/folders/rr/45zb8btd2zq8q088mn92spvm0000gr/T/tmpuihiiubt.wav
+2025-03-01 05:41:02,892 - medical_transcription.transcription.whisper_transcriber - INFO - Loaded 0.16 minutes of audio
+2025-03-01 05:41:02,892 - medical_transcription.transcription.whisper_transcriber - INFO - Loading Whisper model: base
+2025-03-01 05:41:03,544 - medical_transcription.transcription.whisper_transcriber - INFO - Whisper model loaded successfully
+2025-03-01 05:41:03,544 - medical_transcription.transcription.whisper_transcriber - INFO - Starting transcription with Whisper...
+2025-03-01 05:41:04,690 - medical_transcription.transcription.whisper_transcriber - INFO - Transcription complete
+2025-03-01 05:41:04,690 - medical_transcription.ner.medical_ner - INFO - Loading NER model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 05:41:07,894 - medical_transcription.ner.medical_ner - INFO - NER model loaded successfully
+2025-03-01 05:41:07,894 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-01 05:41:08,140 - medical_transcription.ner.medical_ner - INFO - Extracted 0 entities
+2025-03-01 05:41:08,140 - medical_transcription.summarization.text_summarizer - INFO - Loading summarization model and tokenizer: facebook/bart-large-cnn
+2025-03-01 05:41:16,841 - medical_transcription.summarization.text_summarizer - INFO - Summarization model and tokenizer loaded successfully
+2025-03-01 05:41:16,841 - medical_transcription.summarization.text_summarizer - INFO - Summarizing text
+2025-03-01 05:41:20,351 - medical_transcription.summarization.text_summarizer - INFO - Summarization complete
+2025-03-01 05:41:20,351 - medical_transcription.api.app - INFO - About to generate report...
+2025-03-01 05:41:20,351 - medical_transcription.report_generation.report_generator - INFO - Generating clinical report with Gemini
+2025-03-01 05:41:25,607 - medical_transcription.report_generation.report_generator - INFO - Report generation complete
+2025-03-01 05:41:25,610 - medical_transcription.api.app - INFO - Report generation result: Success
+2025-03-01 05:41:25,619 - medical_transcription.report_generation.report_generator - INFO - Report saved as temp/report_b2bbdfe9-8b14-4ccd-96a5-c674a13dd0d5.pdf
+2025-03-01 05:41:25,621 - medical_transcription.knowledge_base.vector_store - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:41:25,872 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 05:41:26,176 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-03-01 05:41:26,176 - medical_transcription.knowledge_base.vector_store - INFO - Embedding model loaded successfully
+2025-03-01 05:41:26,176 - medical_transcription.knowledge_base.vector_store - INFO - Creating FAISS index with chunk size 200 and overlap 50
+2025-03-01 05:41:26,176 - medical_transcription.knowledge_base.vector_store - INFO - Split text into 1 chunks
+2025-03-01 05:41:26,187 - faiss.loader - INFO - Loading faiss.
+2025-03-01 05:41:26,329 - faiss.loader - INFO - Successfully loaded faiss.
+2025-03-01 05:41:26,331 - langchain.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-03-01 05:41:26,333 - medical_transcription.knowledge_base.vector_store - INFO - FAISS index saved to faiss_index
+2025-03-01 05:41:26,333 - medical_transcription.knowledge_base.vector_store - INFO - FAISS index created and saved successfully
+2025-03-01 13:50:58,660 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 13:51:03,073 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 13:51:03,073 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 13:51:03,073 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 13:51:03,073 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 13:51:03,073 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 13:51:03,074 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 13:51:05,360 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 13:51:05,361 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 13:51:05,361 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 13:51:05,361 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 13:51:05,361 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 13:51:05,361 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 13:51:05,370 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-01 14:06:46,433 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 14:06:50,084 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 14:06:50,084 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 14:06:50,084 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 14:06:50,084 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 14:06:50,084 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 14:06:50,085 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 14:06:52,481 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 14:06:52,481 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 14:06:52,481 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 14:06:52,481 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 14:06:52,481 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 14:06:52,482 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 14:06:52,491 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-01 14:10:43,542 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 14:10:46,654 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 14:10:46,654 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 14:10:46,654 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 14:10:46,654 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 14:10:46,654 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 14:10:46,654 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 14:13:54,468 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 14:13:57,145 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 14:13:57,145 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 14:13:57,145 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 14:13:57,145 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 14:13:57,145 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 14:13:57,146 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 14:16:45,844 - __main__ - ERROR - Error starting application: [Errno 2] No such file or directory: '/Users/pushkals/medicalAI/Medical-Transcription-Analysis-using-LLMs/frontend/node_modules/.is-url-EdKd0QaY'
+2025-03-01 14:21:20,486 - medical_transcription.api.app - INFO - API key available in /process endpoint: True
+2025-03-01 14:21:20,487 - medical_transcription.api.app - INFO - Report generator model initialized: True
+2025-03-01 14:21:20,526 - medical_transcription.transcription.whisper_transcriber - INFO - Loading audio file: /var/folders/rr/45zb8btd2zq8q088mn92spvm0000gr/T/tmparnvze6s.wav
+2025-03-01 14:21:21,663 - medical_transcription.transcription.whisper_transcriber - INFO - Loaded 42.00 minutes of audio
+2025-03-01 14:21:21,663 - medical_transcription.transcription.whisper_transcriber - INFO - Loading Whisper model: base
+2025-03-01 14:21:22,314 - medical_transcription.transcription.whisper_transcriber - INFO - Whisper model loaded successfully
+2025-03-01 14:21:22,314 - medical_transcription.transcription.whisper_transcriber - INFO - Starting transcription with Whisper...
+2025-03-01 14:24:13,202 - medical_transcription.transcription.whisper_transcriber - INFO - Transcription complete
+2025-03-01 14:24:13,213 - medical_transcription.ner.medical_ner - INFO - Loading NER model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 14:24:16,546 - medical_transcription.ner.medical_ner - INFO - NER model loaded successfully
+2025-03-01 14:24:16,546 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-01 14:24:17,251 - medical_transcription.ner.medical_ner - INFO - Extracted 4 entities
+2025-03-01 14:24:17,251 - medical_transcription.summarization.text_summarizer - INFO - Loading summarization model and tokenizer: facebook/bart-large-cnn
+2025-03-01 14:24:24,793 - medical_transcription.summarization.text_summarizer - INFO - Summarization model and tokenizer loaded successfully
+2025-03-01 14:24:24,794 - medical_transcription.summarization.text_summarizer - INFO - Summarizing text
+2025-03-01 14:24:34,176 - medical_transcription.summarization.text_summarizer - INFO - Summarization complete
+2025-03-01 14:24:34,176 - medical_transcription.api.app - INFO - About to generate report...
+2025-03-01 14:24:34,177 - medical_transcription.report_generation.report_generator - INFO - Generating clinical report with Gemini
+2025-03-01 14:24:38,171 - medical_transcription.report_generation.report_generator - INFO - Report generation complete
+2025-03-01 14:24:38,172 - medical_transcription.api.app - INFO - Report generation result: Success
+2025-03-01 14:24:38,178 - medical_transcription.report_generation.report_generator - INFO - Report saved as temp/report_4c5f89a2-873f-4ab9-82e2-12f92eb8ff80.pdf
+2025-03-01 14:24:38,187 - medical_transcription.knowledge_base.vector_store - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 14:24:38,693 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 14:24:39,018 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-03-01 14:24:39,018 - medical_transcription.knowledge_base.vector_store - INFO - Embedding model loaded successfully
+2025-03-01 14:24:39,018 - medical_transcription.knowledge_base.vector_store - INFO - Creating FAISS index with chunk size 200 and overlap 50
+2025-03-01 14:24:39,020 - medical_transcription.knowledge_base.vector_store - INFO - Split text into 174 chunks
+2025-03-01 14:24:39,565 - faiss.loader - INFO - Loading faiss.
+2025-03-01 14:24:39,593 - faiss.loader - INFO - Successfully loaded faiss.
+2025-03-01 14:24:39,596 - langchain.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-03-01 14:24:39,601 - medical_transcription.knowledge_base.vector_store - INFO - FAISS index saved to faiss_index
+2025-03-01 14:24:39,601 - medical_transcription.knowledge_base.vector_store - INFO - FAISS index created and saved successfully
+2025-03-01 14:30:03,845 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 14:30:06,740 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 14:30:06,740 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 14:30:06,740 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 14:30:06,740 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 14:30:06,740 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 14:30:06,741 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 14:30:09,394 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 14:30:09,394 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 14:30:09,394 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 14:30:09,395 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 14:30:09,395 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 14:30:09,395 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 14:30:09,405 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-01 16:21:29,970 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 16:21:33,909 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 16:21:33,909 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 16:21:33,909 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 16:21:33,909 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 16:21:33,909 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 16:21:33,910 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 16:21:36,363 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 16:21:36,363 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 16:21:36,363 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 16:21:36,363 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 16:21:36,363 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 16:21:36,364 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 16:21:36,372 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-01 16:21:57,841 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 16:21:59,881 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 16:21:59,881 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 16:21:59,881 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 16:21:59,881 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 16:21:59,881 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 16:21:59,882 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 16:22:02,213 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 16:22:02,214 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 16:22:02,214 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 16:22:02,214 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 16:22:02,214 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 16:22:02,214 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 16:22:02,223 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-01 16:37:18,313 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 16:37:21,641 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 16:37:21,642 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 16:37:21,642 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 16:37:21,642 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 16:37:21,642 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 16:37:21,642 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 16:37:24,019 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 16:37:24,019 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 16:37:24,019 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 16:37:24,019 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 16:37:24,019 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 16:37:24,020 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 16:37:24,028 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-01 16:39:20,101 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-01 16:39:23,029 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 16:39:23,029 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 16:39:23,029 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 16:39:23,030 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 16:39:23,030 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 16:39:23,030 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 16:39:25,681 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-01 16:39:25,681 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-01 16:39:25,681 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-01 16:39:25,681 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-01 16:39:25,682 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-01 16:39:25,682 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-01 16:39:25,692 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 01:08:36,856 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-02 01:08:40,804 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 01:08:40,804 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 01:08:40,804 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 01:08:40,804 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 01:08:40,804 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 01:08:40,804 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 01:08:43,834 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 01:08:43,834 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 01:08:43,834 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 01:08:43,834 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 01:08:43,834 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 01:08:43,835 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 01:08:43,844 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 01:09:10,557 - medical_transcription.transcription.whisper_transcriber - INFO - Loading audio file: /var/folders/rr/45zb8btd2zq8q088mn92spvm0000gr/T/tmpnrbh86wn.wav
+2025-03-02 01:09:11,481 - medical_transcription.transcription.whisper_transcriber - INFO - Loaded 42.00 minutes of audio
+2025-03-02 01:09:11,481 - medical_transcription.transcription.whisper_transcriber - INFO - Loading Whisper model: base
+2025-03-02 01:09:12,174 - medical_transcription.transcription.whisper_transcriber - INFO - Whisper model loaded successfully
+2025-03-02 01:09:12,175 - medical_transcription.transcription.whisper_transcriber - INFO - Starting transcription with Whisper...
+2025-03-02 01:12:05,505 - medical_transcription.transcription.whisper_transcriber - INFO - Transcription complete
+2025-03-02 01:12:05,514 - medical_transcription.ner.medical_ner - INFO - Loading NER model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 01:12:08,813 - medical_transcription.ner.medical_ner - INFO - NER model loaded successfully
+2025-03-02 01:12:08,813 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:12:09,129 - medical_transcription.ner.medical_ner - INFO - Extracted 22 entities
+2025-03-02 01:12:44,310 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:12:44,998 - medical_transcription.ner.medical_ner - INFO - Extracted 4 entities
+2025-03-02 01:13:02,367 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:13:02,509 - medical_transcription.ner.medical_ner - INFO - Extracted 22 entities
+2025-03-02 01:13:06,310 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:13:06,469 - medical_transcription.ner.medical_ner - INFO - Extracted 22 entities
+2025-03-02 01:13:10,512 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:13:10,655 - medical_transcription.ner.medical_ner - INFO - Extracted 22 entities
+2025-03-02 01:13:14,452 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:13:15,010 - medical_transcription.ner.medical_ner - INFO - Extracted 4 entities
+2025-03-02 01:13:23,136 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:13:23,278 - medical_transcription.ner.medical_ner - INFO - Extracted 22 entities
+2025-03-02 01:13:37,672 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:13:37,794 - medical_transcription.ner.medical_ner - INFO - Extracted 5 entities
+2025-03-02 01:13:54,256 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:13:54,375 - medical_transcription.ner.medical_ner - INFO - Extracted 4 entities
+2025-03-02 01:26:51,098 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:26:51,505 - medical_transcription.ner.medical_ner - INFO - Extracted 0 entities
+2025-03-02 01:27:22,742 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:27:23,287 - medical_transcription.ner.medical_ner - INFO - Extracted 4 entities
+2025-03-02 01:27:48,337 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:27:48,473 - medical_transcription.ner.medical_ner - INFO - Extracted 22 entities
+2025-03-02 01:34:22,989 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-02 01:34:25,829 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 01:34:25,829 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 01:34:25,829 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 01:34:25,829 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 01:34:25,829 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 01:34:25,830 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 01:34:28,149 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 01:34:28,149 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 01:34:28,149 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 01:34:28,149 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 01:34:28,149 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 01:34:28,150 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 01:34:28,158 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 01:37:47,701 - medical_transcription.ner.medical_ner - INFO - Loading NER model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 01:37:50,748 - medical_transcription.ner.medical_ner - INFO - NER model loaded successfully
+2025-03-02 01:37:50,748 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:37:51,119 - medical_transcription.ner.medical_ner - INFO - Extracted 0 entities
+2025-03-02 01:38:02,005 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:38:02,126 - medical_transcription.ner.medical_ner - INFO - Extracted 0 entities
+2025-03-02 01:55:37,153 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 01:55:37,153 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 01:55:37,153 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 01:55:37,153 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 01:55:37,153 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 01:55:37,153 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 01:55:37,162 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 01:55:51,959 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 01:55:51,960 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 01:55:51,960 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 01:55:51,960 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 01:55:51,960 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 01:55:51,960 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 01:55:51,970 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 01:56:14,680 - medical_transcription.ner.medical_ner - INFO - Loading NER model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 01:56:17,795 - medical_transcription.ner.medical_ner - INFO - NER model loaded successfully
+2025-03-02 01:56:17,795 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:56:18,182 - medical_transcription.ner.medical_ner - INFO - Extracted 22 entities
+2025-03-02 01:56:34,133 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 01:56:34,133 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 01:56:34,133 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 01:56:34,133 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 01:56:34,133 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 01:56:34,134 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 01:56:34,142 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 01:56:59,525 - medical_transcription.ner.medical_ner - INFO - Loading NER model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 01:57:02,112 - medical_transcription.ner.medical_ner - INFO - NER model loaded successfully
+2025-03-02 01:57:02,112 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:57:02,466 - medical_transcription.ner.medical_ner - INFO - Extracted 0 entities
+2025-03-02 01:57:18,310 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:57:18,462 - medical_transcription.ner.medical_ner - INFO - Extracted 22 entities
+2025-03-02 01:58:02,176 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 01:58:02,354 - medical_transcription.ner.medical_ner - INFO - Extracted 0 entities
+2025-03-02 01:58:47,693 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 01:58:47,694 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 01:58:47,694 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 01:58:47,694 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 01:58:47,694 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 01:58:47,694 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 01:58:47,703 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 01:58:56,680 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 01:58:56,680 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 01:58:56,680 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 01:58:56,680 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 01:58:56,680 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 01:58:56,681 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 01:58:56,690 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 01:59:00,997 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 01:59:00,997 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: samrawal/bert-base-uncased_medical-ner
+2025-03-02 01:59:00,997 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 01:59:00,997 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 01:59:00,997 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 01:59:00,998 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 01:59:01,007 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 01:59:59,306 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 01:59:59,307 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: samrawal/bert-base-uncased_medical-ner
+2025-03-02 01:59:59,307 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 01:59:59,307 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 01:59:59,307 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 01:59:59,307 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 01:59:59,316 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 02:00:18,432 - medical_transcription.ner.medical_ner - INFO - Loading NER model: samrawal/bert-base-uncased_medical-ner
+2025-03-02 02:00:19,273 - medical_transcription.ner.medical_ner - ERROR - Error loading NER model: samrawal/bert-base-uncased_medical-ner is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-03-02 02:00:19,274 - medical_transcription.ner.medical_ner - ERROR - Error during entity extraction: samrawal/bert-base-uncased_medical-ner is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-03-02 02:00:19,274 - medical_transcription.api.app - ERROR - Error during entity extraction: samrawal/bert-base-uncased_medical-ner is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-03-02 02:01:02,999 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 02:01:02,999 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: yikuan8/Clinical-Longformer-NER
+2025-03-02 02:01:02,999 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 02:01:02,999 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 02:01:02,999 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 02:01:03,000 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 02:01:03,009 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 02:02:00,091 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 02:02:00,091 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: yikuan8/Clinical-Longformer-NER
+2025-03-02 02:02:00,091 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 02:02:00,091 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 02:02:00,091 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 02:02:00,092 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 02:02:00,101 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 02:10:55,991 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 02:10:55,991 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: yikuan8/Clinical-Longformer-NER
+2025-03-02 02:10:55,991 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 02:10:55,991 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 02:10:55,991 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 02:10:55,992 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 02:10:56,001 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 02:11:10,585 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 02:11:10,585 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: yikuan8/Clinical-Longformer-NER
+2025-03-02 02:11:10,585 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 02:11:10,585 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 02:11:10,585 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 02:11:10,586 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 02:11:10,596 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 02:11:17,199 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 02:11:17,199 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: yikuan8/Clinical-Longformer-NER
+2025-03-02 02:11:17,199 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 02:11:17,199 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 02:11:17,199 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 02:11:17,200 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 02:11:17,208 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 02:11:26,852 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 02:11:26,852 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: yikuan8/Clinical-Longformer-NER
+2025-03-02 02:11:26,852 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 02:11:26,852 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 02:11:26,852 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 02:11:26,853 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 02:11:26,861 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 02:11:40,859 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 02:11:40,859 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: yikuan8/Clinical-Longformer-NER
+2025-03-02 02:11:40,859 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 02:11:40,859 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 02:11:40,859 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 02:11:40,860 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 02:11:40,869 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 02:11:51,134 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-02 02:11:53,951 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 02:11:53,951 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: yikuan8/Clinical-Longformer-NER
+2025-03-02 02:11:53,951 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 02:11:53,951 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 02:11:53,951 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 02:11:53,951 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 02:12:18,039 - medical_transcription.ner.medical_ner - INFO - Loading NER model: yikuan8/Clinical-Longformer-NER
+2025-03-02 02:12:18,804 - medical_transcription.ner.medical_ner - ERROR - Error loading NER model yikuan8/Clinical-Longformer-NER: yikuan8/Clinical-Longformer-NER is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-03-02 02:12:18,804 - medical_transcription.ner.medical_ner - INFO - Attempting to load fallback model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 02:12:22,683 - medical_transcription.ner.medical_ner - INFO - Successfully loaded fallback model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 02:12:22,683 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 02:12:23,067 - medical_transcription.ner.medical_ner - INFO - Extracted 0 entities
+2025-03-02 02:12:23,067 - medical_transcription.ner.medical_ner - INFO - After filtering: 0 entities remain
+2025-03-02 02:13:02,165 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 02:13:02,277 - medical_transcription.ner.medical_ner - INFO - Extracted 0 entities
+2025-03-02 02:13:02,278 - medical_transcription.ner.medical_ner - INFO - After filtering: 0 entities remain
+2025-03-02 02:13:43,389 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 02:13:44,000 - medical_transcription.ner.medical_ner - INFO - Extracted 4 entities
+2025-03-02 02:13:44,000 - medical_transcription.ner.medical_ner - INFO - Sample raw entities: [{'entity': 'MISC', 'score': 0.62098277, 'index': 98, 'word': 'ĠWi', 'start': 387, 'end': 389}, {'entity': 'MISC', 'score': 0.6711089, 'index': 100, 'word': 'Fi', 'start': 390, 'end': 392}, {'entity': 'MISC', 'score': 0.5762251, 'index': 120, 'word': 'ĠWi', 'start': 466, 'end': 468}]
+2025-03-02 02:13:44,000 - medical_transcription.ner.medical_ner - INFO - Entity structure: dict_keys(['entity', 'score', 'index', 'word', 'start', 'end'])
+2025-03-02 02:13:44,000 - medical_transcription.ner.medical_ner - INFO - Entity types found: {'MISC'}
+2025-03-02 02:13:44,000 - medical_transcription.ner.medical_ner - INFO - After filtering: 0 entities remain
+2025-03-02 23:18:27,004 - __main__ - INFO - Starting Medical Transcription Analysis API
+2025-03-02 23:18:30,829 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 23:18:30,829 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: yikuan8/Clinical-Longformer-NER
+2025-03-02 23:18:30,829 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 23:18:30,829 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 23:18:30,829 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 23:18:30,830 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 23:18:33,356 - medical_transcription.transcription.whisper_transcriber - INFO - Initializing WhisperTranscriber with model size: base
+2025-03-02 23:18:33,356 - medical_transcription.ner.medical_ner - INFO - Initializing MedicalNER with model: yikuan8/Clinical-Longformer-NER
+2025-03-02 23:18:33,356 - medical_transcription.summarization.text_summarizer - INFO - Initializing TextSummarizer with model: facebook/bart-large-cnn
+2025-03-02 23:18:33,356 - medical_transcription.knowledge_base.vector_store - INFO - Initializing MedicalKnowledgeBase with embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-03-02 23:18:33,356 - medical_transcription.report_generation.report_generator - INFO - Initializing ReportGenerator with model: gemini-1.5-flash-8b
+2025-03-02 23:18:33,356 - medical_transcription.report_generation.report_generator - INFO - Gemini API configured successfully
+2025-03-02 23:18:33,366 - medical_transcription.api.app - INFO - API key available at startup: True
+2025-03-02 23:19:00,108 - medical_transcription.ner.medical_ner - INFO - Loading NER model: yikuan8/Clinical-Longformer-NER
+2025-03-02 23:19:00,885 - medical_transcription.ner.medical_ner - ERROR - Error loading NER model yikuan8/Clinical-Longformer-NER: yikuan8/Clinical-Longformer-NER is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-03-02 23:19:00,885 - medical_transcription.ner.medical_ner - INFO - Attempting to load fallback model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 23:19:04,396 - medical_transcription.ner.medical_ner - INFO - Successfully loaded fallback model: Jean-Baptiste/roberta-large-ner-english
+2025-03-02 23:19:04,396 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 23:19:05,199 - medical_transcription.ner.medical_ner - INFO - Extracted 4 entities
+2025-03-02 23:19:05,199 - medical_transcription.ner.medical_ner - INFO - Sample raw entities: [{'entity': 'MISC', 'score': 0.62098277, 'index': 98, 'word': 'ĠWi', 'start': 387, 'end': 389}, {'entity': 'MISC', 'score': 0.6711089, 'index': 100, 'word': 'Fi', 'start': 390, 'end': 392}, {'entity': 'MISC', 'score': 0.5762251, 'index': 120, 'word': 'ĠWi', 'start': 466, 'end': 468}]
+2025-03-02 23:19:05,199 - medical_transcription.ner.medical_ner - INFO - Entity structure: dict_keys(['entity', 'score', 'index', 'word', 'start', 'end'])
+2025-03-02 23:19:05,199 - medical_transcription.ner.medical_ner - INFO - Entity types found: {'MISC'}
+2025-03-02 23:19:05,199 - medical_transcription.ner.medical_ner - INFO - After filtering: 0 entities remain
+2025-03-02 23:46:20,648 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 23:46:21,170 - medical_transcription.ner.medical_ner - INFO - Extracted 0 entities
+2025-03-02 23:46:21,170 - medical_transcription.ner.medical_ner - INFO - After filtering: 0 entities remain
+2025-03-02 23:46:31,115 - medical_transcription.ner.medical_ner - INFO - Extracting entities from text
+2025-03-02 23:46:31,269 - medical_transcription.ner.medical_ner - INFO - Extracted 2 entities
+2025-03-02 23:46:31,269 - medical_transcription.ner.medical_ner - INFO - Sample raw entities: [{'entity': 'ORG', 'score': 0.99905807, 'index': 27, 'word': 'ĠS', 'start': 130, 'end': 131}, {'entity': 'ORG', 'score': 0.9977609, 'index': 28, 'word': 'DE', 'start': 131, 'end': 133}]
+2025-03-02 23:46:31,269 - medical_transcription.ner.medical_ner - INFO - Entity structure: dict_keys(['entity', 'score', 'index', 'word', 'start', 'end'])
+2025-03-02 23:46:31,269 - medical_transcription.ner.medical_ner - INFO - Entity types found: {'ORG'}
+2025-03-02 23:46:31,269 - medical_transcription.ner.medical_ner - INFO - After filtering: 1 entities remain
