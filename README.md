@@ -1,4 +1,4 @@
-# Medical-Transcription-Analysis-using-LLMs
+# Medical Transcription Analysis using LLMs
   
 # 🩺 Medical-Transcription Agents
 
